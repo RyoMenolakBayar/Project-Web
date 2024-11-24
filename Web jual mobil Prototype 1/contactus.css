@@ -1,0 +1,169 @@
+/* Navbar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.navbar-container {
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.logo span {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo span.orange {
+    color: #16a7cb;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    position: relative;
+}
+.nav-links a:hover {
+    color: #16a7cb;
+}
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: #16a7cb;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.nav-links a:hover::after {
+    transform: scaleX(1);
+
+
+    /* Search Icon */
+}
+.search-icon {
+    width: 10px;
+    height: 10px;
+    transition: transform 0.3s ease-in-out; /* add transition effect */
+}
+.search-icon:hover {
+    color: #16a7cb;
+    transform: scale(1.2); 
+}
+
+/* CONTACT US */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact-info, .contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff; /* Menambahkan warna teks hitam untuk seluruh kontainer */
+}
+.contact-info h2, .contact-form h2 {
+    margin-top: 0;
+    color: #000000; /* Menambahkan warna teks hitam untuk judul */
+}
+.contact-info p {
+    margin: 10px 0;
+    color: #000000; /* Menambahkan warna teks hitam untuk paragraf */
+}
+.contact-info i {
+    margin-right: 10px;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000; /* Menambahkan warna teks hitam untuk label */
+}
+.contact-form input, .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.contact-form button {
+    padding: 10px;
+    background-color: #000;
+    color: #ffffff; /* Mengubah warna teks tombol menjadi putih untuk kontras */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-form {
+    max-width: 800px; /* Atur lebar maksimum sesuai kebutuhan */
+    width: 100%;/* Properti lainnya tetap sama */
+    
+}
+.contact-form button:hover {
+    background-color: #444;
+}
+
+/* Footer */
+
+/* Footer */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.column {
+    width: 30%;
+}
+.column h2 {
+    color: #16a7cb;
+}
+.column h3 {
+    color: #16a7cb;
+    margin-top: 20px;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
